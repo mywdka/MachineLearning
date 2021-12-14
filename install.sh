@@ -1,28 +1,5 @@
 #!/bin/bash
 
-helpFunction()
-{
-  echo ""
-  echo "Usage: $0 -f folder"
-  echo -e "\t-f Folder where the repositories should be installed. e.g. ~/MachineLearning"
-  exit 1
-}
-
-while getopts "f:" opt
-do
-  case "$opt" in
-    f ) folder="$OPTARG" ;;
-    ? ) helpFunction ;; # print help function in case parameter is non-existent
-  esac
-done
-
-# print helpFunction in case parameters are empty
-if [ -z  "$folder" ]
-then
-  echo "The required install location parameter is empty"
-  helpFunction
-fi
-
 # get repositories
 dirs=(*/)
 # clone submobdules
@@ -36,6 +13,7 @@ do
   # install anaconda environment
   env=$(find . -type f -name "*.yml")
   conda env create -f $env
+  # return to parent directory
   cd ../
 done
 
