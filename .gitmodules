@@ -13,3 +13,6 @@
 [submodule "pix2pix-tensorflow"]
 	path = pix2pix-tensorflow
 	url = git@github.com:mywdka/pix2pix-tensorflow.git
+[submodule "VQGAN-CLIP-Docker"]
+	path = VQGAN-CLIP-Docker
+	url = git@github.com:mywdka/VQGAN-CLIP-Docker.git
