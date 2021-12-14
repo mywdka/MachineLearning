@@ -17,23 +17,4 @@ do
   cd ../
 done
 
-
-
-
-
-
-# # clone git
-# git clone https://github.com/kcosta42/VQGAN-CLIP-Docker.git $folder/VQGAN_CLIP-Docker
-
-# # setup conda env
-# wget -O ~/enviornment.yml https://gist.githubusercontent.com/devwearsprada/d8f89217083bd856deb8b4ceb237c4c0/raw/c7b458bd1c2beffe29c79f007f21dde65725c8bd/enviornment.yml
-# conda env create -f ~/enviornment.yml
-
-# # download model
-# wget -O $folder/VQGAN_CLIP-Docker/models/vqgan_imagenet_f16_16384.ckpt http://transfer.sh/jyCNPR/vqgan_imagenet_f16_16384.ckpt
-
-# # clean up
-# rm -rf ~/enviornment.yml
-
-# echo "[DONE]"
-# echo -e "\tProject is installed at: $folder/VQGAN_CLIP-Docker/"
+echo "[INFO]: Done installing submodules & environments"
