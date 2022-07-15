@@ -16,3 +16,6 @@
 [submodule "VQGAN-CLIP-Docker"]
 	path = VQGAN-CLIP-Docker
 	url = git@github.com:mywdka/VQGAN-CLIP-Docker.git
+[submodule "dalle-mini"]
+	path = dalle-mini
+	url = https://github.com/mywdka/dalle-mini.git
