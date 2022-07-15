@@ -25,3 +25,6 @@
 [submodule "ru-dalle"]
 	path = ru-dalle
 	url = git@github.com:mywdka/ru-dalle.git
+[submodule "DeepFaceLab"]
+	path = DeepFaceLab
+	url = git@github.com:mywdka/DeepFaceLab_Linux.git
