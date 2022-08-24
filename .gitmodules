@@ -28,3 +28,6 @@
 [submodule "DeepFaceLab"]
 	path = DeepFaceLab
 	url = git@github.com:mywdka/DeepFaceLab_Linux.git
+[submodule "stable-diffusion"]
+	path = stable-diffusion
+	url = git@github.com:mywdka/stable-diffusion.git
