@@ -1,33 +1,33 @@
 [submodule "stylegan2"]
 	path = stylegan2
-	url = git@github.com:mywdka/stylegan2.git
+	url = https://github.com/mywdka/stylegan2.git
 [submodule "TrainYourOwnYOLO"]
 	path = TrainYourOwnYOLO
-	url = git@github.com:mywdka/TrainYourOwnYOLO.git
+	url = https://github.com/mywdka/TrainYourOwnYOLO.git
 [submodule "pix2pixHD"]
 	path = pix2pixHD
-	url = git@github.com:mywdka/pix2pixHD.git
+	url = https://github.com/mywdka/pix2pixHD.git
 [submodule "pix2pix-tensorflow"]
 	path = pix2pix-tensorflow
-	url = git@github.com:mywdka/pix2pix-tensorflow.git
+	url = https://github.com/mywdka/pix2pix-tensorflow.git
 [submodule "VQGAN-CLIP-Docker"]
 	path = VQGAN-CLIP-Docker
-	url = git@github.com:mywdka/VQGAN-CLIP-Docker.git
+	url = https://github.com/mywdka/VQGAN-CLIP-Docker.git
 [submodule "dalle-mini"]
 	path = dalle-mini
-	url = git@github.com:mywdka/dalle-mini.git
+	url = https://github.com/mywdka/dalle-mini.git
 [submodule "stylegan2-ada-pytorch"]
 	path = stylegan2-ada-pytorch
-	url = git@github.com:mywdka/stylegan2-ada-pytorch.git
+	url = https://github.com/mywdka/stylegan2-ada-pytorch.git
 [submodule "ru-dalle"]
 	path = ru-dalle
-	url = git@github.com:mywdka/ru-dalle.git
+	url = https://github.com/mywdka/ru-dalle.git
 [submodule "DeepFaceLab"]
 	path = DeepFaceLab
-	url = git@github.com:mywdka/DeepFaceLab_Linux.git
+	url = https://github.com/mywdka/DeepFaceLab_Linux.git
 [submodule "stable-diffusion"]
 	path = stable-diffusion
-	url = git@github.com:mywdka/stable-diffusion.git
+	url = https://github.com/mywdka/stable-diffusion.git
 [submodule "dataset-tools"]
 	path = dataset-tools
-	url = git@github.com:mywdka/dataset-tools.git
+	url = https://github.com/mywdka/dataset-tools.git
