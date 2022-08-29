@@ -11,7 +11,7 @@ do
   echo "[INFO]: Installing ${dir%/} in: $folder"
   cd $dir
   # install anaconda environment
-  env=$(find . -type f -name "*.yml")
+  env=$(find . -type f -name "*.yaml")
   conda env create -f $env
   # return to parent directory
   cd ../
