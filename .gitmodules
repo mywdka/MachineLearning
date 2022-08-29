@@ -1,9 +1,6 @@
 [submodule "stylegan2"]
 	path = stylegan2
 	url = git@github.com:mywdka/stylegan2.git
-[submodule "dataset-tools"]
-	path = dataset-tools
-	url = git@github.com:mywdka/dataset-tools.git
 [submodule "TrainYourOwnYOLO"]
 	path = TrainYourOwnYOLO
 	url = git@github.com:mywdka/TrainYourOwnYOLO.git
