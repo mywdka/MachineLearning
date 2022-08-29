@@ -28,3 +28,6 @@
 [submodule "stable-diffusion"]
 	path = stable-diffusion
 	url = git@github.com:mywdka/stable-diffusion.git
+[submodule "dataset-tools"]
+	path = dataset-tools
+	url = git@github.com:mywdka/dataset-tools.git
