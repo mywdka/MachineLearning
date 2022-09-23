@@ -34,3 +34,6 @@
 [submodule "stable-diffusion-webui"]
 	path = stable-diffusion-webui
 	url = https://github.com/mywdka/stable-diffusion-webui.git
+[submodule "instant-ngp"]
+	path = instant-ngp
+	url = https://github.com/mywdka/instant-ngp.git
