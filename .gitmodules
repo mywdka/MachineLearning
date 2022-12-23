@@ -25,9 +25,6 @@
 [submodule "DeepFaceLab"]
 	path = DeepFaceLab
 	url = https://github.com/mywdka/DeepFaceLab_Linux.git
-[submodule "stable-diffusion"]
-	path = stable-diffusion
-	url = https://github.com/mywdka/stable-diffusion.git
 [submodule "dataset-tools"]
 	path = dataset-tools
 	url = https://github.com/mywdka/dataset-tools.git

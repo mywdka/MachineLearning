@@ -1,20 +1,16 @@
 #!/bin/bash
 
-# get repositories
-dirs=(*/)
+# env folder
+DIR=envs/*.yaml
 # clone submobdules
 git submodule update --init
 
-for dir in "${dirs[@]}"
+for FILE in $DIR
 do
   # begin script if required parameters are present
-  echo "[INFO]: Installing ${dir%/} in: $folder"
-  cd $dir
-  # install anaconda environment
-  env=$(find . -type f -name "*.yaml")
-  conda env create -f $env
-  # return to parent directory
-  cd ../
+  echo "[INFO]: Installing ${FILE}"
+  # create conda env
+  conda env create -f $FILE
 done
 
 echo "[INFO]: Done installing submodules & environments"
